@@ -1,0 +1,58 @@
+.app.dark{
+    background-color: #222;
+    color:rgb(156, 156 ,156);
+    width: 85rem;
+
+    .sidebar{
+        background-color: #111;
+        border-color: #333;
+    }
+
+    .tablelist{
+        // color:rgb(156, 156 ,156);
+        font-size: 17px;
+        color: rgb(146, 146, 146);
+     }
+     .Add{
+        min-height: 40rem;
+     }
+    
+}
+
+.navbar{
+    color:#999;
+}
+
+//......Tab...
+@media( (min-width: 481) and (max-width: 766)){
+    .app.dark{
+        background-color: #222;
+        color:rgb(156, 156 ,156);
+        width: 85rem;
+    
+        .sidebar{
+            background-color: #111;
+            border-color: #333;
+        }
+    
+        .tablelist{
+            // color:rgb(156, 156 ,156);
+            font-size: 17px;
+            color: rgb(146, 146, 146);
+         }
+        
+    }
+    
+    .navbar{
+        color:#999;
+    }
+    
+
+}
+
+
+
+
+// input{
+//     background-color:transparent;
+// }

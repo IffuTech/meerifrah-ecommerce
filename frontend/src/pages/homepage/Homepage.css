@@ -1,0 +1,69 @@
+.home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 120px;
+    gap: 150px;
+    margin-top: -80px;
+  }
+  .card_item{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    position: relative;
+  }
+  .card_item:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.08); 
+  }
+  .home a{
+    text-decoration: none;
+  }
+  .home .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+  }
+  .home .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  .price{
+    display: flex;
+    justify-content:space-between;
+    column-gap: 38px;
+  }
+  .price strong span{
+    color: tomato;
+  }
+  .home .card p{
+    text-align: center;
+    padding-top: 5px;
+    color:grey;
+    font-weight: 500;
+  }
+  .price strong:first-child{
+    text-decoration: line-through;
+    color: darkgray;
+  }
+  .kids_card a{
+    text-decoration: none;
+    color: black;
+  }
+  .beauty_text{
+    width: 10rem;
+    height: 12rem;
+    padding-left: 8px;
+}
+.beauty_text h5{
+    color: rgb(55, 55, 214);
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+
+} 
+
+

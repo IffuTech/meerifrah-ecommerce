@@ -1,0 +1,87 @@
+.cart_table tbody tr:last-child td:last-child{
+  color: red;
+  font-size: 20px;
+}
+.total a, .total strong{
+  float: right;
+}
+
+.cart{
+  margin-top: 40px;
+  height: 50vh;
+ border: 1px solid lightgrey;
+ padding: 3px;
+ overflow-y: scroll;
+ position: relative;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.card p{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.card img{
+  width: 3rem;
+  height: auto;
+}
+
+.total {
+  float: right;
+}
+.quantity p{
+  font-size: 18px;
+  padding-top:0px;
+  margin: 0 12px;
+}
+.quantity button{
+  border: 1px solid lightgray;
+}
+.quantity svg{
+  font-size: 12px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  margin:6px;
+}
+.card h2 svg{
+  color: red;
+ font-size: 22px;
+}
+
+.cart .cartHeading{
+  display: flex;
+  justify-content: space-around;
+  column-gap: 85px;
+  position: static;
+}
+.cart .cartHeading li{
+  list-style: none;
+  column-gap: 50px;
+  font-weight: 700;
+}
+.cart .cartHeading li:nth-child(2){
+  padding-left: 60px;
+}
+.cart_table{
+  width: 100%;
+  margin: auto;
+}
+.cart_table tr td img{
+  width: 4rem;
+  height: 2.5rem;
+}
+.empty_cart img{
+  width: 20rem;
+  height: auto;
+}
+
+
+
+
+
